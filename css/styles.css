@@ -1,11 +1,15 @@
-.green-background {
-     background-color: green;
-   }
-
-   .yellow-background {
-     background-color: yellow;
-   }
-
-   .red-background {
-     background-color: red;
-   }
+.javashow {
+  display: none;
+}
+.cssshow {
+  display: none;
+}
+.htmlshow {
+  display: none;
+}
+.bootshow {
+  display: none;
+}
+.card {
+  background-color: #666666;
+}

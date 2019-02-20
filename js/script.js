@@ -1,16 +1,18 @@
 $(document).ready(function() {
-     $("button#green").click(function() {
-         $("body").removeClass();
-       $("body").addClass("green-background");
-     });
-
-     $("button#yellow").click(function() {
-         $("body").removeClass();
-       $("body").addClass("yellow-background");
-     });
-
-     $("button#red").click(function() {
-         $("body").removeClass();
-       $("body").addClass("red-background");
-     });
-   });
+  $(".clickable").click(function() {
+    $(".javahid").fadeToggle();
+    $(".javashow").fadeToggle();
+  });
+  $(".css").click(function() {
+    $(".csshid").fadeToggle();
+    $(".cssshow").fadeToggle();
+  });
+  $(".html").click(function() {
+    $(".htmlhid").fadeToggle();
+    $(".htmlshow").fadeToggle();
+  });
+  $(".bootstrap").click(function() {
+    $(".boothid").fadeToggle();
+    $(".bootshow").fadeToggle();
+  });
+});
